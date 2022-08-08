@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 function Navbar (): React.ReactElement {
   const [darkMode, setDarkMode] = React.useState(localStorage.theme)
@@ -34,7 +35,7 @@ function Navbar (): React.ReactElement {
               Github
             </a>
           </li>
-          <li><a className='bg-silver-pink-500 m-1 dark:bg-space-cadet-500 hover:scale-110 normal-case' href='/portfolio'>Portfolio</a></li>
+          <li><Link className='bg-silver-pink-500 m-1 dark:bg-space-cadet-500 hover:scale-110 normal-case' to='/portfolio'>Portfolio</Link></li>
           <li>
             <a
               className='bg-silver-pink-500 m-1 dark:bg-space-cadet-500 hover:scale-110 normal-case'
