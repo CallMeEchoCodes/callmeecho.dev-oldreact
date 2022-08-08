@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { HashLink } from 'react-router-hash-link'
 import Navbar from '../components/Navbar'
 
 function Home (): React.ReactElement {
@@ -14,7 +15,7 @@ function Home (): React.ReactElement {
           <div className='max-w-md'>
             <h1 className='text-5xl font-bold maintext'>Portfolio</h1>
             <p className='py-6'>Heres a list of my best projects</p>
-            <a href='#dossier'><h1 className='text-2xl'>↓</h1></a>
+            <HashLink to='/portfolio#dossier'><h1 className='text-2xl'>↓</h1></HashLink>
           </div>
         </div>
       </div>
