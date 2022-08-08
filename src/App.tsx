@@ -8,14 +8,12 @@ import NotFound from './pages/NotFound'
 
 const Main = (): React.ReactElement => {
   return (
-    <>
-      <Routes>
-        <Route path='*' element={NotFound()} />
+    <Routes>
+      <Route path='*' element={<NotFound />} />
 
-        <Route path='/' element={Home()} />
-        <Route path='/portfolio' element={Portfolio()} />
-      </Routes>
-    </>
+      <Route path='/' element={<Home />} />
+      <Route path='/portfolio' element={<Portfolio />} />
+    </Routes>
   )
 }
 

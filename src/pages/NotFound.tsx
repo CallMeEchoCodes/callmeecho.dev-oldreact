@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Navbar from '../components/Navbar'
 
-function NotFound (): React.ReactNode {
+function NotFound (): React.ReactElement {
   useEffect(() => {
     document.documentElement.classList.add('transition-all')
   })
