@@ -22,7 +22,7 @@ function Navbar (): React.ReactElement {
   return (
     <div className='sticky top-0 navbar dark:bg-space-cadet-600 bg-silver-pink-600 text-space-cadet-600 dark:text-silver-pink-600 font-poppins z-10'>
       <div className='flex-1'>
-        <Link className='font-semibold normal-case text-xl transition-all hover:scale-110 hover:m-1' to='https://callmeecho.dev'>CallMeEcho</Link>
+        <Link className='font-semibold normal-case text-xl transition-all hover:scale-110 hover:m-1' to='/'>CallMeEcho</Link>
       </div>
 
       <div className='flex-none'>
